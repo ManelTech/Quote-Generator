@@ -1,0 +1,72 @@
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title> Quote Generator</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+ <header>
+   <h1>A Random Quote Generator </h1>
+   <h4>Be ready to get surprised!</h4>
+   <div class="line"></div>
+ </header>
+ <main>
+   <div class="main-div">
+      <div class="container">
+
+              <div class="flex">
+                <div class="user-selection">
+
+                      <label for="sel1" class="description">Select Number of Quotes:</label>
+
+                   <select id="list">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                   </select>
+
+                    <br>
+                     <label for="sel1" class="description">Chose between two different quote types:</label>
+
+                    <select id="list1">
+                      <option value="loveQuotes">Love Quotes</option>
+                      <option value="hopeQuotes">Hope Quotes</option>
+
+                    </select>
+
+
+                    <br>
+                </div>
+                  <div class="buttons">
+                      <button class="btn get-quote" id="myBtn"> Get Quote</button>
+
+                  </div>
+              </div>
+
+
+
+                  <div  class="quote-box" id="qbox">
+                      <p id="demo"></p>
+
+                  </div>
+          </div>
+          <div class="img-section">
+            <img src="undraw_game_day_ucx9.svg" class="illustration">
+          </div>
+        </div>
+</main>
+<footer>
+<p class="attribution">
+
+  Coded by <a href="#">Manel Sghaier </a>.
+</p>
+</footer>
+  <script src="myScript2.js"> </script>
+</body>
+  </html>
